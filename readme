@@ -1,0 +1,14 @@
+# Projeto Piscina 42 
+
+## Descrição
+Este repositório contém os exercícios Piscina 42.
+
+## Exercícios Realizados
+* **ex01:ft_purchar.c**
+## Como compilar
+Para compilar os arquivos de C, utilize:
+`gcc -Wall -Wextra -Werror arquivo.c -o programa`
+
+## Estou em desenvolvimento aceito sugestões e contruibuições ##
+
+## Aprendendo a remar com a maré"
