@@ -1,5 +1,5 @@
 
-
+git 
   <h1>🌊 Projeto Piscina 42</h1>
 </div>
 
@@ -20,4 +20,4 @@ gcc -Wall -Wextra -Werror arquivo.c -o programa
 
 ---
 
-### 🚣‍♂️ "Aprendendo a remar com a maré
+### 🚣‍♂️ "Aprendendo a remar com a maré"
