@@ -1,4 +1,5 @@
-<div align="center">
+
+
   <h1>🌊 Projeto Piscina 42</h1>
 </div>
 
@@ -8,13 +9,15 @@
 | Exercício | Arquivo | Status |
 | :--- | :--- | :---: |
 | ex01 | `ft_putchar.c` | ✅ |
-## Como compilar
+
+## 🛠️ Como compilar
 Para compilar os arquivos de C, utilize:
-`gcc -Wall -Wextra -Werror arquivo.c -o programa`
+```bash
+gcc -Wall -Wextra -Werror arquivo.c -o programa
 
 ## 💡 Sugestões
 > Estou em desenvolvimento, aceito sugestões e contribuições! 🚀
 
 ---
 
-### 🚣‍♂️ "Aprendendo a remar com a maré"
+### 🚣‍♂️ "Aprendendo a remar com a maré
