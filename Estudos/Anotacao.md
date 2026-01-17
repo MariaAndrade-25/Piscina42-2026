@@ -2,38 +2,37 @@
 
 ///## Sempre usar
 
-//#include <unistd.h>
+#include <unistd.h>
 
-void ft_purchar (char c)
+// Função essencial: ft_putchar
+void ft_putchar(char c)
 {
-    write (1, &c, 1)
-    1 - terminal
-    & - endereço da variavel
-    1 - saida (output)
-char n = '0'; /// guardando o numero 0 na tabela ASCII
-while (n <= '9') /// Loop para gerar os número em que o n é menor que 9
-Diferentemente de outros em C o caratere se encontra em uma tabela ASCII e na verdade o 0 é (48) na tabela e o 1 é o (49)
-portanto a variável vai rodar para encontrar o número pedido e o loop vai dizer como: "Comece no 48 e vá até o 57".
+    write(1, &c, 1);
+}
+/* Explicação do write(1, &c, 1):
+   1  -> File Descriptor: Terminal (Saída padrão).
+   &c -> Endereço de memória: Onde a variável 'c' está guardada.
+   1  -> Tamanho: Quantos bytes escrever (char sempre tem 1 byte).
+*/
+void ft_print_numbers(void)
 {
-    write(1, &n, 1);
-    n++;
+    char n;
+
+    n = '0'; // Na tabela ASCII, '0' é o valor 48
+    while (n <= '9') // '9' é o valor 57
+    {
+        write(1, &n, 1);
+        n++; // Incrementa: 48, 49, 50... até 57
+    }
 }
-}
-
-
-# include <unistd.h>
-
-void ft_puchar (char c)
+// Exemplo direto no main
+int main(void)
 {
-    while
-    (ab, $c ,cd)
-    //assim em diante
+    // Escreve "abcdefgh" (8 letras) + "\n" (1 caractere) = 9 total
+    write(1, "abcdefgh\n", 9);
+    
+    // Escreve apenas um Z
+    write(1, "Z", 1);
+    
+    return (0);
 }
-//
-{
-    int main (void)
-
-write(1,"abcdefgh\n",27);
-return(0);
-}
-///
