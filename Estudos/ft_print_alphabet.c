@@ -18,11 +18,15 @@ void	ft_print_alphabet(void)
 
     c = 'a';
     while (c <= 'z')
-    //* 
-    int main (void)
-    {
+    {   
         write(1, &c, 1);
-        c++;
     }
+    c++;
 }
-///*
+
+    int main (void)
+{
+    ft_print_alphabet();
+    return (0);
+}
+
